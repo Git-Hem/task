@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/lato"
+        android:text="Welcome.!"
+        android:textColor="@color/white"
+        android:textSize="44dp"
+        android:textStyle="bold">
+
+
+    </TextView>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/lato"
+        android:paddingLeft="16dp"
+        android:text="Nice to see u again.."
+        android:layout_below="@+id/tv"
+        android:layout_marginStart="16dp">
+
+    </TextView>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2"
+        android:padding="16dp"
+        android:layout_marginStart="16dp"
+        android:text="login"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lato"
+        android:background="@drawable/buttonshape">
+
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here it starts...!"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:padding="24dp">
+
+    </TextView>
+
+</RelativeLayout>

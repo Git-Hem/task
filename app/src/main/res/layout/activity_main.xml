@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginmain"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="240dp"
+        android:paddingLeft="16dp"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:layout_marginEnd="140dp"
+        android:background="@drawable/edittext"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter phone number"
+        android:textColor="@color/black"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/lato"
+        android:textColorHint="#56000000">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="240dp"
+        android:paddingLeft="16dp"
+        android:background="@drawable/edittext"
+        android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/edittext1"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="169dp"
+        android:fontFamily="@font/lato"
+        android:hint="Enter Password"
+        android:textColor="@color/black"
+        android:textColorHint="#56000000">
+
+    </EditText>
+    <Button
+        android:layout_width="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonLogin"
+        android:layout_marginTop="28dp"
+        android:text="login"
+        android:layout_below="@id/edittext2"
+        android:background="@drawable/buttonshape">
+
+    </Button>
+
+
+</RelativeLayout>
